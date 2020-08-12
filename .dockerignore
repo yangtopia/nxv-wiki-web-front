@@ -1,0 +1,13 @@
+# node_modules
+node_modules
+
+# firebase functions
+.firebase
+functions
+
+# IDE
+.vscode
+
+# vercel
+.vercel
+.next

@@ -1,0 +1,37 @@
+image: node:alpine
+
+variables:
+  SUBDOMAIN: 'testwiki'
+  NAMESPACE: 'frontend'
+  COMMAND: ''
+  UPDATE_ENV: 'false'
+  STATIC_ONLY: 'false'
+
+stages:
+  - build
+  - deploy
+
+cache:
+  paths:
+    - node_modules/
+
+builder:
+  stage: build
+  image: node:slim
+  script:
+    - npm install
+    - npm run build
+    - if [ ! -d /dist/${SUBDOMAIN}/frontend/app/.next/ ]; then mkdir -p /dist/${SUBDOMAIN}/frontend/.next && cp -r .next/* /dist/${SUBDOMAIN}/frontend/.next; fi
+    - if [ -d /dist/${SUBDOMAIN}/frontend/app/.next/ ]; then rm -r /dist/${SUBDOMAIN}/frontend/app/.next/* && cp -r .next/* /dist/${SUBDOMAIN}/frontend/app/.next; fi
+  only:
+    - develop
+
+deploy:
+  stage: deploy
+  image: reg.nexivil.com/deploy-runner:latest
+  script:
+    - 'runner start'
+  after_script:
+    - 'runner pass'
+  only:
+    - develop

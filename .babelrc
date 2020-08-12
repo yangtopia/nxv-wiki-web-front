@@ -1,0 +1,29 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      { "ssr": true, "displayName": true, "preprocess": false }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@public": "./public",
+          "@components": "./src/components",
+          "@containers": "./src/containers",
+          "@styles": "./src/styles",
+          "@store": "./src/store",
+          "@utils": "./src/utils",
+          "@hooks": "./src/hooks",
+          "@models": "./src/models",
+          "@services": "./src/services",
+          "@scripts": "./src/scripts",
+          "@blocs": "./src/blocs"
+        },
+        "extensions": [".js", ".jsx", ".tsx"]
+      }
+    ]
+  ]
+}

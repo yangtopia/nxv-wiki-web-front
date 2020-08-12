@@ -1,0 +1,8 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>넥시빌 아카이브 랩스</ShortName>
+  <Description>넥시빌 아카이브 랩스</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">https://v.nexivil.com/favicon.ico</Image>
+  <Url type="text/html" method="GET" template="https://v.nexivil.com/?searchTag={searchTerms}" />
+  <moz:SearchForm>https://v.nexivil.com/</moz:SearchForm>
+</OpenSearchDescription>

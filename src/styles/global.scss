@@ -1,0 +1,11 @@
+@import url(//cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css);
+@import url(//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css);
+@import '~react-lazy-load-image-component/src/effects/blur.css';
+@import '~@yangtopia/react-markdown-editor-lite/lib/index.css';
+
+@import 'variables';
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fff;
+}

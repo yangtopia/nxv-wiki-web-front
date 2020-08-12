@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="112.446" height="26.836" viewBox="0 0 112.446 26.836">
+  <defs>
+    <clipPath id="a">
+      <rect width="112.446" height="26.836" fill="none" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)">
+    <g transform="translate(-0.118 -0.034)">
+      <path d="M35.407,16.539,28.251,7.305V18.936h1.07V10.373l7.156,9.234V7.976h-1.07Z" fill="#262626" />
+      <rect width="1.14" height="10.96" transform="translate(72.912 7.976)" fill="#262626" />
+      <rect width="1.14" height="10.96" transform="translate(97.213 7.976)" fill="#262626" />
+      <path d="M43.871,18.936h5.912V17.915H45.011V14.064h4.335V13.11H45.011V8.883h4.772V7.976H43.871Z" fill="#262626" />
+      <path d="M107.793,17.907V7.968l-1.141.008v10.96h5.912V17.915Z" fill="#262626" />
+      <path d="M90.943,7.973,85.323,19.6,79.8,7.973h1.28l4.26,8.97,4.33-8.97Z" fill="#262626" />
+      <path d="M66.033,18.933h-1.42l-8.27-10.96h1.51Z" fill="#262626" />
+      <path d="M66.033,7.973l-3.76,4.98-.73-.99,2.98-3.99Z" fill="#262626" />
+      <path d="M60.8,14.9l-3.04,4.03h-1.42l3.73-5Z" fill="#262626" />
+    </g>
+    <g transform="translate(-0.118 -0.034)">
+      <rect width="1.514" height="1.514" transform="translate(17.406 4.055)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(0.118 4.055)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(13.95 4.055)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(10.494 4.055)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(10.494 21.343)" fill="#fcc30b" />
+      <rect width="1.32" height="3.48" transform="translate(17.503 17.33)" fill="#fcc30b" />
+      <rect width="1.32" height="3.48" transform="translate(17.503 23.39)" fill="#fcc30b" />
+      <rect width="3.48" height="1.32" transform="translate(13.393 21.44)" fill="#fcc30b" />
+      <rect width="3.48" height="1.32" transform="translate(19.453 21.44)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(7.035 4.055)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(3.574 4.055)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(0.118 21.343)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(7.035 21.343)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(3.574 21.343)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(17.406 7.511)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(17.406 10.967)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(17.406 14.426)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(0.118 7.511)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(0.118 10.967)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(0.118 14.426)" fill="#fcc30b" />
+      <rect width="1.514" height="1.514" transform="translate(0.118 17.887)" fill="#fcc30b" />
+    </g>
+    <rect width="112.446" height="26.836" fill="none" />
+  </g>
+</svg>

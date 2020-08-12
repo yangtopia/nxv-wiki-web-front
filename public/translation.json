@@ -1,0 +1,103 @@
+{
+  "common": {
+    "nexivil": ["넥시빌", "NEXIVIL"],
+    "archive-labs": ["Archive Labs", "Archive Labs"],
+    "wiki": ["위키", "WIKI"],
+    "notice": ["공지사항", "Notice"],
+    "read-history": ["최근 읽은 목록", "Reading History"],
+    "author-articles": ["작성자 글 목록", "Author's Articles"],
+    "reply": ["댓글", "Reply"],
+    "save": ["저장", "Save"],
+    "write": ["글쓰기", "Write"],
+    "my-info": ["내 정보", "My Info"],
+    "publish": ["출간", "Publish"],
+    "edit": ["수정", "Edit"],
+    "login": ["로그인", "Login"],
+    "logout": ["로그아웃", "Logout"],
+    "signup": ["회원가입", "SignUp"],
+    "loading": ["로딩중...", "Loading..."],
+    "confirm": ["확인", "Confirm"],
+    "cancel": ["취소", "Cancel"]
+  },
+  "error": {
+    "default": [
+      "알수 없는 오류가 발생하였습니다. 😭",
+      "Unknown Error occurred. 😭"
+    ],
+    "custom": ["${message}", "${message}"],
+    "http": ["${message} 😱", "${message} 😱"],
+    "pageNotFound": ["페이지를 찾을 수 없습니다.", "Page Not Found."],
+    "upload": ["업로드가 실패하였습니다", "Upload Failed"],
+    "wrong-approach": ["잘못된 접근입니다.", "Wrong Approach"]
+  },
+  "message": {
+    "warning": {
+      "ie": [
+        "Internet Explorer 환경에서는 글 읽기만 가능합니다. 최신 브라우저로 이용해주세요.",
+        "You can only read in the Internet Explorer environment. Please Using the latest browser."
+      ]
+    },
+    "language": {
+      "changed": [
+        "언어설정이 변경되었습니다. 😀",
+        "Successfully Language Changed. 😀"
+      ]
+    },
+    "auth": {
+      "login-link-sent": [
+        "로그인링크가 이메일로 전송되었습니다.",
+        "Login Link has been sent."
+      ],
+      "enter-nickname": ["닉네임을 입력해주세요.", "Please Enter Nickname."],
+      "set-nickname": ["닉네임이 등록되었습니다.", "Nickname Saved."],
+      "nickname-occupied": ["이미 사용중인 닉네임입니다"]
+    },
+    "login": {
+      "success": ["로그인 되었습니다.", "Login Success"],
+      "failed": ["로그인이 실패하였습니다.", "Login Failed"],
+      "need": ["로그인이 필요합니다.", "Please Login"],
+      "link-invalid": [
+        "인증이 만료된 로그인링크입니다. 로그인을 재시도해주세요",
+        "Invalid Login Link. Please Retry Login"
+      ]
+    },
+    "logout": {
+      "success": ["로그아웃 되었습니다.", "Logout Success"],
+      "failed": ["로그아웃이 실패하였습니다.", "Logout Failed"]
+    },
+    "article": {
+      "placeholder": {
+        "title": ["제목을 입력해주세요.", "Input Title"]
+      },
+      "publish": {
+        "success": ["출간되었습니다.", "Publish Success"]
+      },
+      "edit": {
+        "success": ["수정되었습니다.", "Edit Success"]
+      },
+      "delete": {
+        "success": ["삭제되었습니다.", "Delete Success"]
+      },
+      "save": {
+        "success": ["저장되었습니다.", "Save Success"]
+      },
+      "search": {
+        "success": ["검색됨", "searched"],
+        "empty": ["검색된 결과가 없습니다", "No searched Articles"],
+        "need-tag": ["검색어를 입력해주세요.", "Please Type Tag for Search"],
+        "empty-tag": ["존재하지 않는 태그입니다.", "No exists tag"]
+      },
+      "error": {
+        "empty": {
+          "title": ["제목을 입력하세요.", "Please Enter Title"],
+          "content": ["내용을 입력하세요.", "Please Enter Content"],
+          "previewImage": ["이미지를 업로드해 주세요", "Please Upload Image."],
+          "slug": ["URL을 입력하세요.", "Please Enter URL"]
+        },
+        "login-needed": ["로그인이 필요합니다.", "Please Login"],
+        "slug": ["이미 사용중인 URL입니다.", "This URL is already In use."],
+        "wrong-slug": ["올바른 URL을 입력하세요", "Please Enter Correct URL"]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# IDE
+.idea
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# misc
+.DS_Store
+.env.dev
+.env.prod
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# HTTPS Certificates
+/server/certs/*
+
+# firebase
+.firebase
+serviceAccountKey.json
+firebase-debug.log
+functions/dist
+
+# vercel
+.vercel
