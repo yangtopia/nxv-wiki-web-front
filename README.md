@@ -19,5 +19,5 @@ Material-ui
 
 ## Backend
 
-fireabse  
+firebase  
 firebase-functions
